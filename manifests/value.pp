@@ -18,6 +18,5 @@ define sysctl::value (
 ) {
   sysctl { $key:
     value  => $value,
-    target => $target,
   }
 }
